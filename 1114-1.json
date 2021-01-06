@@ -1,353 +1,506 @@
 {
-  "template": "°×ÀÇÍõ vs. Ô¤Å®ÊØÆï",
-  "winner": "ºÃÈË",
+  "template": "ç™½ç‹¼ç‹ vs. é¢„å¥³å®ˆéª‘",
+  "winner": "å¥½äºº",
   "data": {
     "1": {
-      "name": "»ª³",
+      "name": "åä¼‹",
       "seat": 1,
-      "role": "ÆïÊ¿",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "éª‘å£«",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "-"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": "-",
+          "target_role": "-"
+        }
       },
-      "death_round": "µÚ¶şÒ¹",
-      "death_method": "ÁÔÉ±",
-      "result": "Ê¤Àû"
+      "death_round": "ç¬¬äºŒå¤œ",
+      "death_method": "çŒæ€",
+      "result": "èƒœåˆ©"
     },
     "2": {
-      "name": "Áõ¼Î³½",
+      "name": "åˆ˜å˜‰è¾°",
       "seat": 2,
-      "role": "Ô¤ÑÔ¼Ò",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "é¢„è¨€å®¶",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "²éÑé",
+            "ability": "æŸ¥éªŒ",
             "target_seat": 12,
-            "target_role": "Æ½Ãñ",
-            "check_result": "ºÃÈË"
+            "target_role": "å¹³æ°‘",
+            "check_result": "å¥½äºº"
           }
         ],
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "²éÑé",
+            "ability": "æŸ¥éªŒ",
             "target_seat": 9,
-            "target_role": "Æ½Ãñ",
-            "check_result": "ºÃÈË"
+            "target_role": "å¹³æ°‘",
+            "check_result": "å¥½äºº"
           }
         ],
-        "µÚÈıÒ¹": [
+        "ç¬¬ä¸‰å¤œ": [
           {
-            "ability": "²éÑé",
+            "ability": "æŸ¥éªŒ",
             "target_seat": 7,
-            "target_role": "Å®Î×",
-            "check_result": "ºÃÈË"
+            "target_role": "å¥³å·«",
+            "check_result": "å¥½äºº"
           }
         ],
-        "µÚËÄÒ¹": [
+        "ç¬¬å››å¤œ": [
           {
-            "ability": "²éÑé",
+            "ability": "æŸ¥éªŒ",
             "target_seat": 4,
-            "target_role": "Æ½Ãñ",
-            "check_result": "ºÃÈË"
+            "target_role": "å¹³æ°‘",
+            "check_result": "å¥½äºº"
           }
         ]
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "3": {
-      "name": "ÖÜÃôĞĞ",
+      "name": "å‘¨æ•è¡Œ",
       "seat": 3,
-      "role": "ÀÇÈË",
-      "initial_camp": "ÀÇÈË",
-      "final_camp": "ÀÇÈË",
+      "role": "ç‹¼äºº",
+      "initial_camp": "ç‹¼äºº",
+      "final_camp": "ç‹¼äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "5"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 5,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 8,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 1,
-            "target_role": "ÆïÊ¿"
+            "target_role": "éª‘å£«"
           }
         ],
-        "µÚÈıÒ¹": [
+        "ç¬¬ä¸‰å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 2,
-            "target_role": "Ô¤ÑÔ¼Ò"
+            "target_role": "é¢„è¨€å®¶"
           }
         ]
       },
-      "death_round": "µÚÈıÌì",
-      "death_method": "·ÅÖğ",
-      "result": "Ê§°Ü"
+      "death_round": "ç¬¬ä¸‰å¤©",
+      "death_method": "æ”¾é€",
+      "result": "å¤±è´¥"
     },
     "4": {
-      "name": "ÑîÖñÌì",
+      "name": "æ¨ç«¹å¤©",
       "seat": 4,
-      "role": "Æ½Ãñ",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å¹³æ°‘",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "5": {
-      "name": "ËÎÑåéğ",
+      "name": "å®‹å½¦è½²",
       "seat": 5,
-      "role": "ÀÇÈË",
-      "initial_camp": "ÀÇÈË",
-      "final_camp": "ÀÇÈË",
+      "role": "ç‹¼äºº",
+      "initial_camp": "ç‹¼äºº",
+      "final_camp": "ç‹¼äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 8,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 1,
-            "target_role": "ÆïÊ¿"
+            "target_role": "éª‘å£«"
           }
         ],
-        "µÚÈıÒ¹": [
+        "ç¬¬ä¸‰å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 2,
-            "target_role": "Ô¤ÑÔ¼Ò"
+            "target_role": "é¢„è¨€å®¶"
           }
         ],
-        "µÚËÄÒ¹": [
+        "ç¬¬å››å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 2,
-            "target_role": "Ô¤ÑÔ¼Ò"
+            "target_role": "é¢„è¨€å®¶"
           }
         ]
       },
-      "result": "Ê§°Ü"
+      "result": "å¤±è´¥"
     },
     "6": {
-      "name": "Àè×ÑĞã",
+      "name": "é»ç±½ç§€",
       "seat": 6,
-      "role": "ÊØÎÀ",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å®ˆå«",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
       "actions": {
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "ÊØ»¤",
+            "ability": "å®ˆæŠ¤",
             "target_seat": 12,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚÈıÒ¹": [
+        "ç¬¬ä¸‰å¤œ": [
           {
-            "ability": "ÊØ»¤",
+            "ability": "å®ˆæŠ¤",
             "target_seat": 2,
-            "target_role": "Ô¤ÑÔ¼Ò"
+            "target_role": "é¢„è¨€å®¶"
           }
         ],
-        "µÚËÄÒ¹": [
+        "ç¬¬å››å¤œ": [
           {
-            "ability": "ÊØ»¤",
+            "ability": "å®ˆæŠ¤",
             "target_seat": 6,
-            "target_role": "ÊØÎÀ"
+            "target_role": "å®ˆå«"
           }
         ]
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "7": {
-      "name": "ÑîºÍ",
+      "name": "æ¨å’Œ",
       "seat": 7,
-      "role": "Å®Î×",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å¥³å·«",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "½â¾È",
+            "ability": "è§£æ•‘",
             "target_seat": 8,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚËÄÒ¹": [
+        "ç¬¬å››å¤œ": [
           {
-            "ability": "¶¾É±",
+            "ability": "æ¯’æ€",
             "target_seat": 5,
-            "target_role": "ÀÇÈË"
+            "target_role": "ç‹¼äºº"
           }
         ]
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "8": {
-      "name": "¼Í²×º£",
+      "name": "çºªæ²§æµ·",
       "seat": 8,
-      "role": "Æ½Ãñ",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å¹³æ°‘",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "9": {
-      "name": "Ó¦Ò»µ¤",
+      "name": "åº”ä¸€ä¸¹",
       "seat": 9,
-      "role": "Æ½Ãñ",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å¹³æ°‘",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "3"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": 3,
+          "target_role": "ç‹¼äºº",
+          "target_camp": "ç‹¼äºº"
+        }
       },
-      "result": "Ê¤Àû"
+      "result": "èƒœåˆ©"
     },
     "10": {
-      "name": "ºúÓêÕÂ",
+      "name": "èƒ¡é›¨ç« ",
       "seat": 10,
-      "role": "°×ÀÇÍõ",
-      "initial_camp": "ÀÇÈË",
-      "final_camp": "ÀÇÈË",
+      "role": "ç™½ç‹¼ç‹",
+      "initial_camp": "ç‹¼äºº",
+      "final_camp": "ç‹¼äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "-"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": "-",
+          "target_role": "-"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 8,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 1,
-            "target_role": "ÆïÊ¿"
+            "target_role": "éª‘å£«"
           }
         ],
-        "µÚ¶şÌì": {
-          "ability": "×Ô±¬»÷É±",
+        "ç¬¬äºŒå¤©": {
+          "ability": "è‡ªçˆ†å‡»æ€",
           "target_seat": 12,
-          "target_role": "Æ½Ãñ"
+          "target_role": "å¹³æ°‘"
         },
-        "µÚÈıÒ¹": [
+        "ç¬¬ä¸‰å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 2,
-            "target_role": "Ô¤ÑÔ¼Ò"
+            "target_role": "é¢„è¨€å®¶"
           }
         ]
       },
-      "death_round": "µÚ¶şÌì",
-      "death_method": "×Ô±¬",
-      "result": "Ê§°Ü"
+      "death_round": "ç¬¬äºŒå¤©",
+      "death_method": "è‡ªçˆ†",
+      "result": "å¤±è´¥"
     },
     "11": {
-      "name": "ÎÄÔÃ",
+      "name": "æ–‡æ‚¦",
       "seat": 11,
-      "role": "ÀÇÈË",
-      "initial_camp": "ÀÇÈË",
-      "final_camp": "ÀÇÈË",
+      "role": "ç‹¼äºº",
+      "initial_camp": "ç‹¼äºº",
+      "final_camp": "ç‹¼äºº",
       "votes": {
-        "¾¯»Õ": "-",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "-"
+        "è­¦å¾½": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": "-",
+          "target_role": "-"
+        }
       },
       "actions": {
-        "µÚÒ»Ò¹": [
+        "ç¬¬ä¸€å¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 8,
-            "target_role": "Æ½Ãñ"
+            "target_role": "å¹³æ°‘"
           }
         ],
-        "µÚ¶şÒ¹": [
+        "ç¬¬äºŒå¤œ": [
           {
-            "ability": "ÁÔÉ±",
+            "ability": "çŒæ€",
             "target_seat": 1,
-            "target_role": "ÆïÊ¿"
+            "target_role": "éª‘å£«"
           }
         ]
       },
-      "death_round": "µÚÒ»Ìì",
-      "death_method": "×Ô±¬",
-      "result": "Ê§°Ü"
+      "death_round": "ç¬¬ä¸€å¤©",
+      "death_method": "è‡ªçˆ†",
+      "result": "å¤±è´¥"
     },
     "12": {
-      "name": "ÒüÇïÑô",
+      "name": "å°¹ç§‹é˜³",
       "seat": 12,
-      "role": "Æ½Ãñ",
-      "initial_camp": "ºÃÈË",
-      "final_camp": "ºÃÈË",
+      "role": "å¹³æ°‘",
+      "initial_camp": "å¥½äºº",
+      "final_camp": "å¥½äºº",
       "votes": {
-        "¾¯»Õ": "ÉÏ¾¯",
-        "µÚÒ»Ìì": "-",
-        "µÚ¶şÌì": "-",
-        "µÚÈıÌì": "-"
+        "è­¦å¾½": {
+          "target": "ä¸Šè­¦",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸€å¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬äºŒå¤©": {
+          "target": "-",
+          "target_role": "-"
+        },
+        "ç¬¬ä¸‰å¤©": {
+          "target": "-",
+          "target_role": "-"
+        }
       },
-      "death_method": "°×ÀÇÍõ»÷É±",
-      "result": "Ê¤Àû"
+      "death_method": "ç™½ç‹¼ç‹å‡»æ€",
+      "death_round": "ç¬¬äºŒå¤©",
+      "result": "èƒœåˆ©"
     }
   }
 }
