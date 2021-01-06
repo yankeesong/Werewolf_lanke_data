@@ -1,0 +1,314 @@
+{
+  "template": "机械狼 vs. 通女猎守",
+  "winner": "好人",
+  "data": {
+    "1": {
+      "name": "华伋",
+      "seat": 1,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "7",
+        "第二天": "-",
+        "第三天": "-",
+        "第四天": "-"
+      },
+      "death_round": "第二夜",
+      "death_method": "猎杀",
+      "result": "胜利"
+    },
+    "2": {
+      "name": "杨和",
+      "seat": 2,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "6",
+        "第二天": "12",
+        "第三天": "7",
+        "第四天": "11"
+      },
+      "result": "胜利"
+    },
+    "3": {
+      "name": "周广宇",
+      "seat": 3,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "5",
+        "第二天": "12",
+        "第三天": "7",
+        "第四天": "11"
+      },
+      "result": "胜利"
+    },
+    "4": {
+      "name": "吴霁薇",
+      "seat": 4,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "6",
+        "第二天": "12",
+        "第三天": "11",
+        "第四天": "4"
+      },
+      "result": "胜利"
+    },
+    "5": {
+      "name": "尹秋阳",
+      "seat": 5,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "6",
+        "第二天": "-",
+        "第三天": "-",
+        "第四天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 1,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "badge": "第一天",
+      "death_round": "第二夜",
+      "death_method": "毒杀",
+      "result": "失败"
+    },
+    "6": {
+      "name": "黎籽秀",
+      "seat": 6,
+      "role": "通灵师",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "5",
+        "第二天": "-",
+        "第三天": "-",
+        "第四天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "查验",
+            "target_seat": 8,
+            "target_role": "守卫",
+            "check_result": "守卫"
+          }
+        ]
+      },
+      "death_round": "第一天",
+      "death_method": "放逐",
+      "result": "胜利"
+    },
+    "7": {
+      "name": "安东",
+      "seat": 7,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "6",
+        "第二天": "11",
+        "第三天": "11",
+        "第四天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 1,
+            "target_role": "平民"
+          }
+        ],
+        "第三夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "death_round": "第三天",
+      "death_method": "放逐",
+      "result": "失败"
+    },
+    "8": {
+      "name": "夏添",
+      "seat": 8,
+      "role": "守卫",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "5",
+        "第二天": "12",
+        "第三天": "7",
+        "第四天": "11"
+      },
+      "actions": {
+        "第二夜": [
+          {
+            "ability": "守护",
+            "target_seat": 8,
+            "target_role": "守卫"
+          }
+        ],
+        "第三夜": [
+          {
+            "ability": "守护",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ],
+        "第四夜": [
+          {
+            "ability": "守护",
+            "target_seat": 8,
+            "target_role": "守卫"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "9": {
+      "name": "纪沧海",
+      "seat": 9,
+      "role": "女巫",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "6",
+        "第二天": "12",
+        "第三天": "7",
+        "第四天": "11"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "解救",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "毒杀",
+            "target_seat": 5,
+            "target_role": "狼人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "10": {
+      "name": "胡雨章",
+      "seat": 10,
+      "role": "猎人",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "11",
+        "第二天": "12",
+        "第三天": "7",
+        "第四天": "10"
+      },
+      "result": "胜利"
+    },
+    "11": {
+      "name": "文悦",
+      "seat": 11,
+      "role": "机械狼",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "6",
+        "第二天": "8",
+        "第三天": "10",
+        "第四天": "4"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "模仿",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "badge": "第二天",
+      "death_round": "第四天",
+      "death_method": "放逐",
+      "result": "失败"
+    },
+    "12": {
+      "name": "陈思杰",
+      "seat": 12,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "-",
+        "第一天": "6",
+        "第二天": "8",
+        "第三天": "-",
+        "第四天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 10,
+            "target_role": "猎人"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 1,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "badge": "第二天",
+      "death_round": "第二天",
+      "death_method": "放逐",
+      "result": "失败"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "template": "预女猎白混",
+  "winner": "狼人",
+  "data": {
+    "1": {
+      "name": "华伋",
+      "seat": 1,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "7",
+        "第一天": "4",
+        "第二天": "7"
+      },
+      "death_round": "第二天",
+      "death_method": "放逐",
+      "result": "失败"
+    },
+    "2": {
+      "name": "路西",
+      "seat": 2,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 3,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "3": {
+      "name": "刘嘉辰",
+      "seat": 3,
+      "role": "猎人",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "7",
+        "第二天": "-"
+      },
+      "death_round": "第二夜",
+      "death_method": "猎杀",
+      "actions": {
+        "第二天": {
+          "ability": "枪杀",
+          "target_seat": 5,
+          "target_role": "女巫"
+        }
+      },
+      "result": "失败"
+    },
+    "4": {
+      "name": "胡雨章",
+      "seat": 4,
+      "role": "预言家",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "7",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "查验",
+            "target_seat": 9,
+            "target_role": "平民",
+            "check_result": "好人"
+          }
+        ]
+      },
+      "death_round": "第一天",
+      "death_method": "放逐",
+      "result": "失败"
+    },
+    "5": {
+      "name": "常宇鑫",
+      "seat": 5,
+      "role": "女巫",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "4",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "解救",
+            "target_seat": 12,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "death_round": "第二夜",
+      "death_method": "枪杀",
+      "result": "失败"
+    },
+    "6": {
+      "name": "胡泾莓",
+      "seat": 6,
+      "role": "混血儿",
+      "initial_camp": "好人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "弃票",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "榜样",
+            "target_seat": 2,
+            "target_role": "狼人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "7": {
+      "name": "陈睿聪",
+      "seat": 7,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 3,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "badge": "第一天",
+      "result": "胜利"
+    },
+    "8": {
+      "name": "骆威",
+      "seat": 8,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "7",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 3,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "9": {
+      "name": "安东",
+      "seat": 9,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "7",
+        "第二天": "1"
+      },
+      "result": "失败"
+    },
+    "10": {
+      "name": "杨和",
+      "seat": 10,
+      "role": "白痴",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "7",
+        "第一天": "4",
+        "第二天": "弃票"
+      },
+      "result": "失败"
+    },
+    "11": {
+      "name": "黎籽秀",
+      "seat": 11,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "7",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 3,
+            "target_role": "猎人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "12": {
+      "name": "谷信荣",
+      "seat": 12,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "7",
+        "第一天": "4",
+        "第二天": "1"
+      },
+      "result": "失败"
+    }
+  }
+}

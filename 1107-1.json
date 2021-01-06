@@ -1,0 +1,247 @@
+{
+  "template": "预女猎妖混",
+  "winner": "狼人",
+  "data": {
+    "1": {
+      "name": "杨和",
+      "seat": 1,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "9"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "九尾妖狐"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "2": {
+      "name": "纪沧海",
+      "seat": 2,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "9"
+      },
+      "result": "失败"
+    },
+    "3": {
+      "name": "周广宇",
+      "seat": 3,
+      "role": "女巫",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "8",
+        "第一天": "9"
+      },
+      "actions": {
+        "第二夜": [
+          {
+            "ability": "毒杀",
+            "target_seat": 10,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "result": "失败"
+    },
+    "4": {
+      "name": "尹秋阳",
+      "seat": 4,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "3"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "九尾妖狐"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "5": {
+      "name": "刘嘉辰",
+      "seat": 5,
+      "role": "混血儿",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "8"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "榜样",
+            "target_seat": 4,
+            "target_role": "狼人"
+          }
+        ]
+      },
+      "result": "失败"
+    },
+    "6": {
+      "name": "黎籽秀",
+      "seat": 6,
+      "role": "猎人",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "8",
+        "第一天": "8"
+      },
+      "result": "失败"
+    },
+    "7": {
+      "name": "安东",
+      "seat": 7,
+      "role": "九尾妖狐",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "弃票",
+        "第一天": "-"
+      },
+      "death_round": "第一夜",
+      "death_method": "猎杀",
+      "result": "失败"
+    },
+    "8": {
+      "name": "夏添",
+      "seat": 8,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "9"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "九尾妖狐"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "badge": "第一天",
+      "result": "胜利"
+    },
+    "9": {
+      "name": "骆威",
+      "seat": 9,
+      "role": "预言家",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "8"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "查验",
+            "target_seat": 7,
+            "target_role": "九尾妖狐",
+            "check_result": "好人"
+          }
+        ]
+      },
+      "death_round": "第一天",
+      "death_method": "放逐",
+      "result": "失败"
+    },
+    "10": {
+      "name": "胡雨章",
+      "seat": 10,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "9",
+        "第一天": "8"
+      },
+      "result": "失败"
+    },
+    "11": {
+      "name": "文悦",
+      "seat": 11,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "8",
+        "第一天": "9"
+      },
+      "result": "失败"
+    },
+    "12": {
+      "name": "谷信荣",
+      "seat": 12,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "8",
+        "第一天": "9"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "九尾妖狐"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "result": "胜利"
+    }
+  }
+}

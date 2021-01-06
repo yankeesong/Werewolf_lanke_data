@@ -1,0 +1,306 @@
+{
+  "template": "魔狼 vs. 预女猎白",
+  "winner": "好人",
+  "data": {
+    "1": {
+      "name": "华伋",
+      "seat": 1,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "result": "胜利"
+    },
+    "2": {
+      "name": "周广宇",
+      "seat": 2,
+      "role": "猎魔人",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第二夜": [
+          {
+            "ability": "狩猎",
+            "target_seat": 8,
+            "target_role": "魔狼"
+          }
+        ],
+        "第三夜": [
+          {
+            "ability": "狩猎",
+            "target_seat": 6,
+            "target_role": "狼人"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "3": {
+      "name": "尹秋阳",
+      "seat": 3,
+      "role": "白痴",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "result": "胜利"
+    },
+    "4": {
+      "name": "夏添",
+      "seat": 4,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "result": "胜利"
+    },
+    "5": {
+      "name": "胡雨章",
+      "seat": 5,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "预言家"
+          }
+        ]
+      },
+      "death_round": "第一天",
+      "death_method": "自爆",
+      "result": "失败"
+    },
+    "6": {
+      "name": "黎籽秀",
+      "seat": 6,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "预言家"
+          }
+        ],
+        "第三夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "猎魔人"
+          }
+        ]
+      },
+      "death_round": "第三夜",
+      "death_method": "狩猎",
+      "result": "失败"
+    },
+    "7": {
+      "name": "陈睿聪",
+      "seat": 7,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "result": "胜利"
+    },
+    "8": {
+      "name": "安东",
+      "seat": 8,
+      "role": "魔狼",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "预言家"
+          },
+          {
+            "ability": "重创",
+            "target_seat": 11,
+            "target_role": "平民"
+          }
+        ]
+      },
+      "death_round": "第二夜",
+      "death_method": "毒杀 狩猎",
+      "result": "失败"
+    },
+    "9": {
+      "name": "骆威",
+      "seat": 9,
+      "role": "狼人",
+      "initial_camp": "狼人",
+      "final_camp": "狼人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 7,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 12,
+            "target_role": "预言家"
+          }
+        ],
+        "第三夜": [
+          {
+            "ability": "猎杀",
+            "target_seat": 2,
+            "target_role": "猎魔人"
+          }
+        ]
+      },
+      "death_round": "第二天",
+      "death_method": "自爆",
+      "result": "失败"
+    },
+    "10": {
+      "name": "杨和",
+      "seat": 10,
+      "role": "女巫",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "解救",
+            "target_seat": 7,
+            "target_role": "平民"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "毒杀",
+            "target_seat": 8,
+            "target_role": "魔狼"
+          }
+        ]
+      },
+      "result": "胜利"
+    },
+    "11": {
+      "name": "杨竹天",
+      "seat": 11,
+      "role": "平民",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "12",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "result": "胜利"
+    },
+    "12": {
+      "name": "刘宗浩",
+      "seat": 12,
+      "role": "预言家",
+      "initial_camp": "好人",
+      "final_camp": "好人",
+      "votes": {
+        "警徽": "上警",
+        "第一天": "-",
+        "第二天": "-"
+      },
+      "actions": {
+        "第一夜": [
+          {
+            "ability": "查验",
+            "target_seat": 8,
+            "target_role": "魔狼",
+            "check_result": "狼人"
+          }
+        ],
+        "第二夜": [
+          {
+            "ability": "查验",
+            "target_seat": 4,
+            "target_role": "平民",
+            "check_result": "好人"
+          }
+        ]
+      },
+      "badge": "第一天",
+      "death_round": "第二夜",
+      "death_method": "猎杀",
+      "result": "胜利"
+    }
+  }
+}
